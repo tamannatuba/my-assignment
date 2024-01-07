@@ -1,7 +1,32 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.mother{
+.mother {
     text-align: center;
+    background-image: url('../images/banner.png');
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.first {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px ;
+    font-weight: 400;
+    padding: 100px 0px 0px 0px;
+}
+
+.second {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;}
+
+.photo{
+    margin: 0 auto;
 }
