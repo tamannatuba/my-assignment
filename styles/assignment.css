@@ -115,7 +115,8 @@ body {
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 32px font-weight: 600;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .btn-praimary {
@@ -126,6 +127,106 @@ body {
     background: #F00;
 }
 
-.join-now{
+.join-now {
+    text-align: center;
+}
+
+.pera-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-new {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.come {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.fifth-content {
+    height: 600px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.what {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.days {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+
+.round {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    gap: 5px;
+}
+
+.dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.level-two {
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.level-three {
+    display: flex;
+    background-image: url('../images/rectangletwo.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1300px;
+    margin: 0 auto;
+
+
+}
+
+.level-five {
+    gap: 0;
+    display: flex;
+}
+
+.rec-img{
+    display: flex;
+}
+
+.image-mother{
+    max-width: 1300px;
+    margin: 0 auto;
+    image:hover
+}
+
+.nwe-section{
     text-align: center;
 }
