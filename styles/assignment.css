@@ -15,7 +15,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px ;
+    font-size: 32px;
     font-weight: 400;
     padding: 100px 0px 0px 0px;
 }
@@ -25,8 +25,40 @@ body {
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-weight: 900;}
+    font-weight: 900;
+}
 
-.photo{
+.any {
+    text-align: center;
+}
+
+.third{
+    color: #F00;
+    font-family: Inter;
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.fourth{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fifth{
+    color: #070211;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+.my{
+    max-width: 700;
     margin: 0 auto;
 }
+
+
+    
+    
