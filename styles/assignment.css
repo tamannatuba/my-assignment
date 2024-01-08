@@ -251,3 +251,27 @@ body {
     text-align: center;
     margin: 30px auto;
 }
+
+.footer-mother {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    text-align: center;
+}
+
+footer {
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    background: #070211;
+}
+
+.footer {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
