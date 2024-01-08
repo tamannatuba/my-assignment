@@ -75,6 +75,11 @@ body {
     padding: 30px 30px 30px 30px;
 }
 
+.main-content .hundred{
+    width: 40%;
+    padding: 40px;
+}
+
 .party {
     color: #FFF;
     font-size: 64px;
@@ -101,6 +106,7 @@ body {
     height: 482px;
     flex-shrink: 0;
     margin: 50px auto;
+    padding: 10px;
 }
 
 .new {
@@ -125,6 +131,7 @@ body {
     gap: 10px;
     border-radius: 8px;
     background: #F00;
+    border: 0px;
 }
 
 .join-now {
@@ -135,7 +142,7 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .content-new {
@@ -183,9 +190,9 @@ body {
 
 
 .round {
-    border-radius: 463px;
+    border-radius: 470px;
     border: 15px solid #F00;
-    gap: 5px;
+
 }
 
 .dolor {
@@ -217,20 +224,22 @@ body {
     display: flex;
 }
 
-.rec-img {
-    display: flex;
-}
 
 .image-mother {
     max-width: 1300px;
     margin: 0 auto;
-    image: hover
+    cursor: pointer;
 }
+
 
 .nwe-section {
     text-align: center;
+    padding: 20px;
 }
 
+.image-mother img{
+    border-image:hover;
+}
 .subscribe-content {
     color: #070211;
     font-family: Merriweather;
@@ -250,6 +259,27 @@ body {
     max-width: 1300px;
     text-align: center;
     margin: 30px auto;
+    padding: 30px;
+}
+
+.from-content {
+    gap: 0px;
+}
+
+.from-content input {
+    border-radius:50px 0px 0px 50px;
+    background: #FFF;
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+}
+
+.btn-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    flex-shrink: 0;
+    border: none;
+    padding: 10px;
 }
 
 .footer-mother {
@@ -263,10 +293,10 @@ body {
 
 footer {
     width: 1600px;
-    height: 609px;
+    height: 500px;
     margin: 0 auto;
-    flex-shrink: 0;
     background: #070211;
+    padding: 120px 20px;
 }
 
 .footer {
@@ -274,4 +304,12 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+
+.second-footer .call{
+    display: flex;
+}
+
+.second-footer .website{
+    display: flex;
 }
